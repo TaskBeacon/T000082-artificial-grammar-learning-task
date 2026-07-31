@@ -1,0 +1,54 @@
+[
+  {
+    "id": "K&S1994",
+    "title": "The information acquired during artificial grammar learning",
+    "authors": ["Barbara J. Knowlton", "Larry R. Squire"],
+    "year": 1994,
+    "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+    "doi_or_url": "https://doi.org/10.1037/0278-7393.20.1.79",
+    "citation_count": 162,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": ["classic training procedure", "3-second study timing", "two training passes", "five-minute delay", "balanced grammaticality test", "one-position violations"],
+    "parameter_bindings": {
+      "timing.study_duration": 3.0,
+      "timing.interphase_delay": 300.0,
+      "task.training_passes": 2
+    },
+    "notes": "Article is explicitly marked public domain; citation count checked in OpenAlex on 2026-08-01."
+  },
+  {
+    "id": "K&S1996",
+    "title": "Artificial grammar learning depends on implicit acquisition of both abstract and exemplar-specific information",
+    "authors": ["Barbara J. Knowlton", "Larry R. Squire"],
+    "year": 1996,
+    "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+    "doi_or_url": "https://doi.org/10.1037/0278-7393.22.1.169",
+    "citation_count": 370,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": ["classic Reber grammar procedure", "16-item training set", "32-item balanced test", "chunk-strength-aware interpretation"],
+    "parameter_bindings": {
+      "task.training_strings": 16,
+      "task.test_grammatical_strings": 16,
+      "task.test_nongrammatical": 16
+    },
+    "notes": "Author-provided full text is explicitly marked public domain; citation count checked in OpenAlex on 2026-08-01."
+  },
+  {
+    "id": "FORKSTAM2006",
+    "title": "Neural correlates of artificial syntactic structure classification",
+    "authors": ["Christian Forkstam", "Peter Hagoort", "Guillen Fernandez", "Martin Ingvar", "Karl Magnus Petersson"],
+    "year": 2006,
+    "journal": "NeuroImage",
+    "doi_or_url": "https://doi.org/10.1016/j.neuroimage.2006.03.057",
+    "citation_count": 130,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": ["Reber finite-state machine", "disjoint acquisition and classification pools", "50/50 grammaticality balance", "single-position violation construction"],
+    "parameter_bindings": {
+      "task.conditions": ["training_grammatical", "test_grammatical", "test_nongrammatical"]
+    },
+    "notes": "Open author manuscript hosted by the Max Planck Society; citation count checked in OpenAlex on 2026-08-01."
+  }
+]

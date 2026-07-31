@@ -1,0 +1,22 @@
+id: T000082
+slug: artificial-grammar-learning-task
+title: Artificial Grammar Learning Task
+acquisition: behavior
+variant: classic-reber
+cognitive_domain:
+  - implicit-learning
+  - statistical-learning
+  - sequence-learning
+maturity: draft
+version:
+  release_tag: v0.1.0
+contracts:
+  taps: v0.2.0
+runtime:
+  profile: psyflow
+evidence:
+  - https://doi.org/10.1037/0278-7393.20.1.79
+  - https://doi.org/10.1037/0278-7393.22.1.169
+  - https://doi.org/10.1016/j.neuroimage.2006.03.057
+maintainer:
+  - TaskBeacon

@@ -1,0 +1,768 @@
+[
+  {
+    "id": "W2166667242",
+    "title": "The magical number 4 in short-term memory: A reconsideration of mental storage capacity",
+    "authors": [
+      "Nelson Cowan"
+    ],
+    "year": 2001,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x01003922",
+    "citation_count": 6837,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2030830933",
+    "title": "Characteristics of dissociable human learning systems",
+    "authors": [
+      "David R. Shanks",
+      "Mark John"
+    ],
+    "year": 1994,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x00035032",
+    "citation_count": 1182,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2110176263",
+    "title": "Sequencing in SLA",
+    "authors": [
+      "Nick C. Ellis"
+    ],
+    "year": 1996,
+    "journal": "Studies in Second Language Acquisition",
+    "doi_or_url": "https://doi.org/10.1017/s0272263100014698",
+    "citation_count": 828,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2585535166",
+    "title": "Empirical approaches to the study of language evolution",
+    "authors": [
+      "W. Tecumseh Fitch"
+    ],
+    "year": 2017,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/s13423-017-1236-5",
+    "citation_count": 272,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2170777750",
+    "title": "What artificial grammar learning reveals about the neurobiology of syntax",
+    "authors": [
+      "Karl Magnus Petersson",
+      "Vasiliki Folia",
+      "Peter Hagoort"
+    ],
+    "year": 2010,
+    "journal": "Brain and Language",
+    "doi_or_url": "https://doi.org/10.1016/j.bandl.2010.08.003",
+    "citation_count": 206,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2023413025",
+    "title": "Implicit Learning and Acquisition of Music",
+    "authors": [
+      "Martin Rohrmeier",
+      "Patrick Rebuschat"
+    ],
+    "year": 2012,
+    "journal": "Topics in Cognitive Science",
+    "doi_or_url": "https://doi.org/10.1111/j.1756-8765.2012.01223.x",
+    "citation_count": 204,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2158363733",
+    "title": "Brain Networks of Explicit and Implicit Learning",
+    "authors": [
+      "Jing Yang",
+      "Ping Li"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0042993",
+    "citation_count": 143,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2581302502",
+    "title": "Culture and biology in the origins of linguistic structure",
+    "authors": [
+      "Simon Kirby"
+    ],
+    "year": 2017,
+    "journal": "Psychonomic Bulletin & Review",
+    "doi_or_url": "https://doi.org/10.3758/s13423-016-1166-7",
+    "citation_count": 142,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042281949",
+    "title": "Artificial syntactic violations activate Broca's region",
+    "authors": [
+      "Karl Magnus Petersson",
+      "Christian Forkstam",
+      "Martin Ingvar"
+    ],
+    "year": 2004,
+    "journal": "Cognitive Science",
+    "doi_or_url": "https://doi.org/10.1207/s15516709cog2803_4",
+    "citation_count": 140,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2137597482",
+    "title": "Syntactic learning by mere exposure - An ERP study in adult learners",
+    "authors": [
+      "Jutta L. Mueller",
+      "Regine Oberecker",
+      "Angela D. Friederici"
+    ],
+    "year": 2009,
+    "journal": "BMC Neuroscience",
+    "doi_or_url": "https://doi.org/10.1186/1471-2202-10-89",
+    "citation_count": 62,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2122533541",
+    "title": "Learning Recursion: Multiple Nested and Crossed Dependencies",
+    "authors": [
+      "Meinou De Vries",
+      "Morten H. Christiansen",
+      "Karl Magnus Petersson"
+    ],
+    "year": 2011,
+    "journal": "Biolinguistics",
+    "doi_or_url": "https://doi.org/10.5964/bioling.8825",
+    "citation_count": 58,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4393559805",
+    "title": "Uniquely human intelligence arose from expanded information capacity",
+    "authors": [
+      "Jessica F. Cantlon",
+      "Steven T. Piantadosi"
+    ],
+    "year": 2024,
+    "journal": "Nature Reviews Psychology",
+    "doi_or_url": "https://doi.org/10.1038/s44159-024-00283-3",
+    "citation_count": 43,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4243124307",
+    "title": "Resituating Cognition.",
+    "authors": [
+      "Peter R. Killeen",
+      "Arthur M. Glenberg"
+    ],
+    "year": 2010,
+    "journal": "Comparative Cognition & Behavior Reviews",
+    "doi_or_url": "https://doi.org/10.3819/ccbr.2010.50003",
+    "citation_count": 40,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2909510788",
+    "title": "Artificial Language Learning in Children",
+    "authors": [
+      "Jennifer Culbertson",
+      "Kathryn Schuler"
+    ],
+    "year": 2019,
+    "journal": "Annual Review of Linguistics",
+    "doi_or_url": "https://doi.org/10.1146/annurev-linguistics-011718-012329",
+    "citation_count": 40,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992278104",
+    "title": "Intuitive decision making in complex situations: Somatic markers in an artificial grammar learning task",
+    "authors": [
+      "Dick J. Bierman",
+      "Arnaud Destrebecqz",
+      "Axel Cleeremans"
+    ],
+    "year": 2005,
+    "journal": "Cognitive Affective & Behavioral Neuroscience",
+    "doi_or_url": "https://doi.org/10.3758/cabn.5.3.297",
+    "citation_count": 30,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4322758355",
+    "title": "Effects of inductive learning and gamification on news veracity discernment.",
+    "authors": [
+      "Ariana Modirrousta-Galian",
+      "Philip A. Higham",
+      "Tina Seabrooke"
+    ],
+    "year": 2023,
+    "journal": "Journal of Experimental Psychology Applied",
+    "doi_or_url": "https://doi.org/10.1037/xap0000458",
+    "citation_count": 25,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2060096437",
+    "title": "\u201cArtificial grammar learning\u201d in pigeons: A preliminary analysis",
+    "authors": [
+      "Walter T. Herbranson",
+      "Charles P. Shimp"
+    ],
+    "year": 2003,
+    "journal": "Learning & Behavior",
+    "doi_or_url": "https://doi.org/10.3758/bf03195973",
+    "citation_count": 21,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2294597550",
+    "title": "Cross-Domain Statistical\u2013Sequential Dependencies Are Difficult to Learn",
+    "authors": [
+      "Anne M. Walk",
+      "Christopher M. Conway"
+    ],
+    "year": 2016,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2016.00250",
+    "citation_count": 16,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2162202695",
+    "title": "Targets for a Comparative Neurobiology of Language",
+    "authors": [
+      "Justin Kiggins",
+      "Jordan A. Comins",
+      "Timothy Q. Gentner"
+    ],
+    "year": 2012,
+    "journal": "Frontiers in Evolutionary Neuroscience",
+    "doi_or_url": "https://doi.org/10.3389/fnevo.2012.00006",
+    "citation_count": 15,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2766618407",
+    "title": "Developmental Constraints on Learning Artificial Grammars with Fixed, Flexible and Free Word Order",
+    "authors": [
+      "Iga Nowak",
+      "Giosu\u00e8 Baggio"
+    ],
+    "year": 2017,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2017.01816",
+    "citation_count": 12,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2004485522",
+    "title": "Role of prior knowledge in implicit and explicit learning of artificial grammars",
+    "authors": [
+      "Eleni Ziori",
+      "Emmanuel M. Pothos",
+      "Zolt\u00e1n Dienes"
+    ],
+    "year": 2014,
+    "journal": "Consciousness and Cognition",
+    "doi_or_url": "https://doi.org/10.1016/j.concog.2014.06.003",
+    "citation_count": 11,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4410521415",
+    "title": "Modeling rapid language learning by distilling Bayesian priors into artificial neural networks",
+    "authors": [
+      "R. Thomas McCoy",
+      "Thomas L. Griffiths"
+    ],
+    "year": 2025,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-025-59957-y",
+    "citation_count": 10,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2590878706",
+    "title": "Behaviorism reborn? Statistical learning as simple conditioning",
+    "authors": [
+      "Todd M. Gureckis",
+      "Bradley C. Love"
+    ],
+    "year": 2007,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W2590878706",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1591216536",
+    "title": "Conceptual and Methodological Problems with Comparative Work on Artificial Language Learning",
+    "authors": [
+      "Jeffrey Watumull",
+      "Marc D. Hauser",
+      "Robert C. Berwick"
+    ],
+    "year": 2014,
+    "journal": "Biolinguistics",
+    "doi_or_url": "https://doi.org/10.5964/bioling.8995",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2009347649",
+    "title": "gSRT-Soft: A generic software application and some methodological guidelines to investigate implicit learning through visual-motor sequential tasks",
+    "authors": [
+      "St\u00e9phanie Chambaron",
+      "Dominique Ginhac",
+      "Pierre Perruchet"
+    ],
+    "year": 2008,
+    "journal": "Behavior Research Methods",
+    "doi_or_url": "https://doi.org/10.3758/brm.40.2.493",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2902994996",
+    "title": "CABots and Other Neural Agents",
+    "authors": [
+      "Christian Huyck",
+      "Ian Mitchell"
+    ],
+    "year": 2018,
+    "journal": "Frontiers in Neurorobotics",
+    "doi_or_url": "https://doi.org/10.3389/fnbot.2018.00079",
+    "citation_count": 6,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3088981356",
+    "title": "Distillation of weighted automata from recurrent neural networks using a spectral approach",
+    "authors": [
+      "R\u00e9mi Eyraud",
+      "St\u00e9phane Ayache"
+    ],
+    "year": 2021,
+    "journal": "Machine Learning",
+    "doi_or_url": "https://doi.org/10.1007/s10994-021-05948-1",
+    "citation_count": 4,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4391403031",
+    "title": "The Keys to the Future? An Examination of Statistical Versus Discriminative Accounts of Serial Pattern Learning",
+    "authors": [
+      "Fabian Tomaschek",
+      "Michael Ramscar",
+      "Jessie S. Nixon"
+    ],
+    "year": 2024,
+    "journal": "Cognitive Science",
+    "doi_or_url": "https://doi.org/10.1111/cogs.13404",
+    "citation_count": 3,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2081586545",
+    "title": "Implicit assumptions about implicit learning",
+    "authors": [
+      "Keith J. Holyoak",
+      "Merideth Gattis"
+    ],
+    "year": 1994,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x00035159",
+    "citation_count": 2,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2767227261",
+    "title": "Grammar induction profits from representative stimulus sampling",
+    "authors": [
+      "Nick Charter",
+      "Fenna H. Poletiek"
+    ],
+    "year": 2006,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W2767227261",
+    "citation_count": 2,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2041445772",
+    "title": "Two types of thought: Evidence from aphasia",
+    "authors": [
+      "Jules Davidoff"
+    ],
+    "year": 2005,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x05290015",
+    "citation_count": 1,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4385759351",
+    "title": "Instance theory predicts categorization decisions in the absence of categorical structure: A computational analysis of artificial grammar learning without a grammar",
+    "authors": [
+      "Evan T. Curtis",
+      "I. Lebek"
+    ],
+    "year": 2023,
+    "journal": "Memory & Cognition",
+    "doi_or_url": "https://doi.org/10.3758/s13421-023-01449-9",
+    "citation_count": 1,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2768020497",
+    "title": "Instructional Focus Does Not Effect Implicit Pattern Learning",
+    "authors": [
+      "Ivan K. Ash",
+      "Timothy J. Nokes"
+    ],
+    "year": 2003,
+    "journal": "eScholarship (California Digital Library)",
+    "doi_or_url": "https://openalex.org/W2768020497",
+    "citation_count": 1,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2096912913",
+    "title": "Is this what the debate on rules was about?",
+    "authors": [
+      "Ulrike Hahn"
+    ],
+    "year": 2005,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x05340015",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2949994376",
+    "title": "Process reveals structure: How a network is traversed mediates expectations about its architecture",
+    "authors": [
+      "Elisabeth A. Karuza",
+      "Ari E. Kahn",
+      "Sharon L. Thompson\u2010Schill",
+      "Danielle S. Bassett"
+    ],
+    "year": 2017,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-017-12876-5",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2785453257",
+    "title": "The Association Between Structured Sequence Processing and Grammatical Language Processing: The Neurocognitive Mechanisms and the Potential to Enhance Them",
+    "authors": [
+      "Gretchen N. L. Smith"
+    ],
+    "year": 2022,
+    "journal": "Digital Archive @ GSU",
+    "doi_or_url": "https://doi.org/10.57709/11104349",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W7169878884",
+    "title": "Statistical Learning in the Music Theory Classroom",
+    "authors": [
+      "Nathaniel D. Mitchell"
+    ],
+    "year": 2026,
+    "journal": "Journal of Music Theory Pedagogy",
+    "doi_or_url": "https://doi.org/10.15763/issn.2994-7073.2026.39.171-218",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W7162650018",
+    "title": "The influence of sense of agency on learning structured regularities: an artificial grammar learning study",
+    "authors": [
+      "Romina Haxhi",
+      "Mateusz Wozniak",
+      "Agnieszka Wykowska"
+    ],
+    "year": 2026,
+    "journal": "Psychological Research",
+    "doi_or_url": "https://doi.org/10.1007/s00426-026-02308-3",
+    "citation_count": 0,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  }
+]

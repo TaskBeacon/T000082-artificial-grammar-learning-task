@@ -1,0 +1,14 @@
+# Stimulus Mapping
+
+## Mapping Table
+
+| Condition | Stage/Phase | Stimulus IDs | Participant-Facing Content | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Asset References | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `training_grammatical` | `training_instruction` | `training_instruction` | Chinese instructions to remember and reproduce strings without searching for rules | K&S1994; K&S1996 | Training initially withholds the existence/nature of the grammar and frames exposure as short-term-memory reproduction. | `psychopy_builtin` | none | SimHei localization; meaning preserved. |
+| `training_grammatical` | `study_string` | `letter_string`, `train_p*_**` | One centered uppercase grammatical P/T/S/X/V string | K&S1994; K&S1996; FORKSTAM2006 | Studies present grammar-generated consonant strings one at a time; Reber-machine material is shown in the cited figures/methods. | `psychopy_builtin` | none | Courier New ensures equal character spacing. |
+| `training_grammatical` | `recall_entry` | `recall_prompt`, `recall_typed` | Prompt plus the participant's typed reproduction | K&S1994; K&S1996 | Each training item is reproduced immediately from short-term memory after presentation. | `psychopy_builtin` | none | Framework-native one-key response units accumulate the typed string. |
+| `training_grammatical` | `retry_notice` | `retry_notice` | Neutral notice before re-presentation | K&S1994; K&S1996 | An incorrectly reproduced item can be shown again, up to three presentations. | `psychopy_builtin` | none | Does not expose rules or the correct sequence. |
+| `test_grammatical` | `classification` | `test_string`, `classify_left`, `classify_right`, `test_g_**` | Novel grammatical string with F/J conforms/not-conforms choices | K&S1994; K&S1996; FORKSTAM2006 | Novel strings are classified in a yes/no forced choice after the grammar's existence is disclosed. | `psychopy_builtin` | none | No correctness feedback. |
+| `test_nongrammatical` | `classification` | `test_string`, `classify_left`, `classify_right`, `test_ng_**` | Novel one-position-violation string with the same F/J choices | K&S1994 | Nongrammatical test strings violate the rule system at one position and are intermixed with grammatical strings. | `psychopy_builtin` | none | Every negative is paired to and differs from a grammatical source at exactly one recorded index. |
+| `training_grammatical` | `training_iti` | `fixation` | Gray fixation cross | K&S1994 | Successive items are presented separately. | `psychopy_builtin` | none | Neutral inferred 0.5-s separation. |
+| `test_grammatical`, `test_nongrammatical` | `test_iti` | `fixation` | Gray fixation cross | FORKSTAM2006 | Classification events are separated by a fixation interval. | `psychopy_builtin` | none | Scanner-specific duration is not imported; behavioral ITI is inferred. |

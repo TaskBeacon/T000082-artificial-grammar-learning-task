@@ -1,0 +1,119 @@
+subinfo_fields:
+  - {name: subject_id, type: int, constraints: {min: 101, max: 999, digits: 3}}
+subinfo_mapping:
+  subject_id: 参与者编号
+  Participant Information: 参与者信息
+  registration_failed: 登记失败
+  registration_successful: 登记成功
+  invalid_input: "{field} 输入无效"
+
+window:
+  size: [1280, 800]
+  units: deg
+  screen: 0
+  bg_color: "#F5F5F2"
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 57
+
+task:
+  task_name: Artificial Grammar Learning Task
+  save_path: ./outputs/qa
+  language: Chinese
+  voice_enabled: false
+  total_blocks: 2
+  total_trials: 6
+  trial_per_block: 3
+  conditions: [training_grammatical, test_grammatical, test_nongrammatical]
+  key_list: [p, t, s, x, v, backspace, return, f, j, space]
+  seed_mode: same_across_sub
+  delta: 0.0
+  random_seed: 82082
+  block_seed: [82082, 82182]
+  training_passes: 1
+  max_recall_attempts: 3
+  max_recall_keystrokes: 20
+  recall_keys: [p, t, s, x, v]
+  recall_delete_key: backspace
+  recall_submit_key: return
+  classification_keys: [f, j]
+  phase_order: [training_instruction, study_string, recall_entry, training_iti, interphase_delay, test_instruction, classification, test_iti, good_bye]
+  training_strings: [TXS, PTVV]
+  test_grammatical_strings: [PTTTTVV, PTVPXVV]
+  test_nongrammatical:
+    - {string: PPTTTVV, source_string: PTTTTVV, violation_position: 1}
+    - {string: PTVSXVV, source_string: PTVPXVV, violation_position: 3}
+
+timing:
+  study_duration: 3.0
+  recall_key_window: 10.0
+  retry_notice_duration: 0.75
+  interphase_delay: 1.0
+  classification_window: 10.0
+  iti_duration: 0.5
+
+stimuli:
+  training_instruction:
+    {type: text, font: SimHei, text: "第一阶段：请记住每个字母串。\n\n字母串消失后，请用 P、T、S、X、V 键按原顺序输入；退格键删除，回车键提交。\n\n此阶段不需要寻找任何规律。\n\n按空格键开始。", color: "#1F2933", height: 0.62, wrapWidth: 24, pos: [0, 0]}
+  letter_string:
+    {type: text, font: "Courier New", text: "{letter_string}", color: "#111827", height: 1.2, pos: [0, 0]}
+  recall_prompt:
+    {type: text, font: SimHei, text: "请按原顺序输入刚才的字母串\n退格键删除 · 回车键提交", color: "#374151", height: 0.62, wrapWidth: 24, pos: [0, 2.2]}
+  recall_typed:
+    {type: text, font: "Courier New", text: "{typed}", color: "#111827", height: 1.1, pos: [0, -0.2]}
+  retry_notice:
+    {type: text, font: SimHei, text: "请再看一次这个字母串", color: "#374151", height: 0.64, pos: [0, 0]}
+  delay_fixation:
+    {type: text, font: "Arial", text: "+", color: "#4B5563", height: 0.8, pos: [0, 0]}
+  test_instruction:
+    {type: text, font: SimHei, text: "第二阶段：刚才的字母串都遵循同一套复杂规则。\n\n接下来会出现新的字母串。请凭直觉判断它是否符合这套规则，不必尝试说出规则。\n\nF = 符合规则    J = 不符合规则\n\n本阶段不提供反馈。按空格键开始。", color: "#1F2933", height: 0.62, wrapWidth: 25, pos: [0, 0]}
+  test_string:
+    {type: text, font: "Courier New", text: "{letter_string}", color: "#111827", height: 1.2, pos: [0, 1.2]}
+  classify_left:
+    {type: text, font: SimHei, text: "F\n符合规则", color: "#0F766E", height: 0.6, wrapWidth: 8, pos: [-5.0, -2.5]}
+  classify_right:
+    {type: text, font: SimHei, text: "J\n不符合规则", color: "#B45309", height: 0.6, wrapWidth: 8, pos: [5.0, -2.5]}
+  fixation:
+    {type: text, font: "Arial", text: "+", color: "#6B7280", height: 0.65, pos: [0, 0]}
+  good_bye:
+    {type: text, font: SimHei, text: "任务完成\n\n已作答 {completed}/{total}\n正确 {correct}，正确率 {accuracy:.1%}\n平均反应时 {mean_rt:.3f} 秒\n\n按空格键退出。", color: "#1F2933", height: 0.62, wrapWidth: 22, pos: [0, 0]}
+
+triggers:
+  map:
+    experiment_start: 1
+    training_block_start: 10
+    training_string: 20
+    recall_entry: 21
+    recall_key: 22
+    recall_timeout: 23
+    recall_retry: 24
+    training_block_end: 19
+    delay_start: 30
+    delay_end: 31
+    test_block_start: 40
+    test_grammatical: 50
+    test_nongrammatical: 51
+    classify_conforms: 60
+    classify_violates: 61
+    classification_timeout: 62
+    iti: 70
+    test_block_end: 49
+    experiment_end: 99
+  driver: {type: serial_url, url: "loop://", baudrate: 115200}
+  timing: {post_delay_s: 0.001}
+  policy: {strict: false}
+
+qa:
+  output_dir: outputs/qa
+  enable_scaling: true
+  timing_scale: 0.05
+  min_frames: 1
+  strict: false
+  max_wait_s: 120
+  acceptance_criteria:
+    required_columns: [trial_id, phase, condition_id, stimulus_id, string, grammatical, response_key, correct]
+    triggers_required: true
+
+responder:
+  type: responders.task_sampler:ScriptedResponder
+  kwargs: {}

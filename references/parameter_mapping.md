@@ -1,0 +1,21 @@
+# Parameter Mapping
+
+## Mapping Table
+
+| Parameter ID | Config Path | Implemented Value | Source Paper ID | Evidence (quote/figure/table) | Decision Type | Notes |
+|---|---|---|---|---|---|---|
+| grammar | `task.training_strings`, `task.test_grammatical_strings` | Reber finite-state grammar over P/T/S/X/V | FORKSTAM2006 | Figure 1 identifies the Reber machine used to generate grammatical material; Methods describes grammar-generated acquisition/classification sets. | direct | State transitions are explicitly implemented and every configured positive string is validated. |
+| training_items | `task.training_strings` | 16 unique grammatical strings | K&S1994; K&S1996 | K&S1994 Experiment 2 Materials uses a 16-item training set; K&S1996 retains the classic short-term-memory training structure. | adapted | Fixed pool is generated from the canonical Reber machine and disjoint from test positives. |
+| training_passes | `task.training_passes` | 2 | K&S1994 | Experiment 1 Procedure states that the entire training procedure was repeated a second time with the same items. | direct | Each pass has an independent seed-controlled shuffle. |
+| study_duration | `timing.study_duration` | 3.0 s | K&S1994; K&S1996 | Both procedures present each training item for 3 s before immediate reproduction. | direct | QA/sim scale wall-clock time without changing nominal timing. |
+| recall_attempts | `task.max_recall_attempts` | 3 | K&S1994; K&S1996 | Incorrectly reproduced items could be presented up to three times before proceeding. | direct | No grammar-rule feedback is shown. |
+| interphase_delay | `timing.interphase_delay` | 300 s | K&S1994 | Experiment 1 Procedure begins classification five minutes after training presentation. | direct | Reduced to 1 s only in QA/sim profiles. |
+| test_balance | `task.test_grammatical_strings`, `task.test_nongrammatical` | 16 grammatical / 16 nongrammatical | K&S1994; K&S1996; FORKSTAM2006 | K&S1994 Experiment 2 uses 32 test items split evenly by grammaticality; Forkstam Methods uses 50% G/NG classification sets. | adapted | Full canonical profile uses 32 trials; pools are shuffled together. |
+| violations | `task.test_nongrammatical[*]` | one substituted character per paired grammatical item | K&S1994; FORKSTAM2006 | K&S1994 creates nongrammatical strings with a violation at one position; Forkstam derives NG strings by changing two nonterminal letters for ACS matching. | direct | This classic behavioral port follows K&S1994's single-position rule and records the violation index. |
+| classification_instruction | `stimuli.test_instruction.text` | intuitive/gut-feeling grammaticality judgment | K&S1994; FORKSTAM2006 | Participants are first told about the complex rule system after training and asked to rely on intuitive impression. | direct | Chinese localization preserves the instruction meaning. |
+| classification_keys | `task.classification_keys` | F = conforms, J = does not conform | FORKSTAM2006 | The high-impact replication uses a left/right yes-no forced choice with counterbalanced hands. | adapted | Fixed F/J mapping improves deployability and is explicitly taught. |
+| classification_window | `timing.classification_window` | 10.0 s | K&S1994 | Classic index-card classification is self-paced and does not specify a computerized deadline. | inferred | Conservative deadline; timeout is missing rather than incorrect. |
+| recall_key_window | `timing.recall_key_window` | 10.0 s per key | K&S1994 | Immediate reproduction is self-paced after the fixed study display. | inferred | Per-key deadline supports framework-native typed input and simulation. |
+| iti_duration | `timing.iti_duration` | 0.5 s | K&S1994; FORKSTAM2006 | Both designs separate successive strings; no canonical behavioral ITI is reported. | inferred | Neutral fixation with no feedback. |
+| language_font | `stimuli.*.font` | SimHei for Chinese text; Courier New for strings | TaskBeacon policy | Localization does not alter the Latin-letter grammar. | inferred | Participant wording is config-first and UTF-8. |
+| trigger_codes | `triggers.map` | 1-99 phase/response codes | TaskBeacon contract | Source studies do not prescribe portable trigger numbers. | inferred | Semantics map one-to-one to audited states. |
